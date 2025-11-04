@@ -74,10 +74,10 @@ public class Ex03 {
         while (soma < num){
             soma += proximoNumero;
             proximoNumero++;
+
         }if (soma == num){
             return true;
         }
-
         return false;
     }
 }

@@ -3,7 +3,7 @@ package FichaPratica06;
 import java.util.Scanner;
 
 import static FichaPratica06.Ex03.*;
-
+import static FichaPratica06.Ex05.*;
 public class Ex04 {
     public static void main(String[] args) {
 
@@ -85,6 +85,7 @@ public class Ex04 {
                     System.out.print("Insira outro número para ser analisado: ");
                     numero = input.nextInt();
                     break;
+
 
                 case 0: // Sair
                     System.out.println("Obrigado e até à próxima \uD83C\uDFC3\uD83D\uDEAA");
